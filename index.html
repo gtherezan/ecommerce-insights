@@ -2,13 +2,15 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Explained Analysis</title>
+<title>Web Analytics - Marketing Analysis</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <script src="assets/highlight.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.0/styles/vs.min.css">
+
+<link rel="icon" href="assets/favicon.ico">
 
 <style type="text/css">
     /*!
@@ -13165,7 +13167,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">load_ext</span> sql
@@ -13186,7 +13188,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">sql</span> mysql+pymysql://root:Mysqlpw@localhost:3306/mavenfuzzyfactory
@@ -13202,7 +13204,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[2]:</div>
 
 
 
@@ -13227,7 +13229,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">sql</span> USE mavenfuzzyfactory
@@ -13255,7 +13257,7 @@ $( document ).ready(function(){
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[3]:</div>
 
 
 
@@ -13295,7 +13297,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span> <span class="c1"># importando a biblioteca numpy com o alias abreviado &quot;np&quot;</span>
@@ -13321,7 +13323,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
@@ -13342,7 +13344,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">locale</span><span class="o">.</span><span class="n">setlocale</span><span class="p">(</span><span class="n">locale</span><span class="o">.</span><span class="n">LC_TIME</span><span class="p">,</span> <span class="s2">&quot;pt_BR&quot;</span><span class="p">);</span>
@@ -13426,7 +13428,7 @@ $( document ).ready(function(){
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -13465,7 +13467,7 @@ ORDER BY sessions DESC -- ordenação decrescente pelo número de sessões
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13571,7 +13573,7 @@ ORDER BY sessions DESC -- ordenação decrescente pelo número de sessões
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -13611,7 +13613,7 @@ WHERE
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -13665,7 +13667,7 @@ WHERE
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -13709,7 +13711,7 @@ GROUP BY
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[10]:</div>
+    <div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -13748,7 +13750,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração dos dados para um dataframe</span>
@@ -13831,7 +13833,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -13877,7 +13879,7 @@ GROUP BY
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -13943,7 +13945,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração e tratamento dos dados para um dataframe</span>
@@ -14029,7 +14031,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -14080,7 +14082,7 @@ FROM
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[14]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -14114,7 +14116,7 @@ FROM
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Os dados mostram que <strong>59% dos usuários abandonam o site após visitar a primeira página</strong>. Realizada esta etapa da análise podemos prosseguir e tentar indentificar oportunidades de otimização.</p>
+<p>Os dados mostram que <strong>59% dos usuários abandonam o site após visitar a primeira página</strong>. Realizada esta etapa da análise podemos prosseguir e tentar identificar oportunidades de otimização.</p>
 
 </div>
 </div>
@@ -14136,7 +14138,7 @@ FROM
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -14183,7 +14185,7 @@ GROUP BY
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[15]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -14235,7 +14237,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -14290,7 +14292,7 @@ GROUP BY
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[16]:</div>
+    <div class="prompt output_prompt">Out[15]:</div>
 
 
 
@@ -14352,7 +14354,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -14406,7 +14408,7 @@ ORDER BY week_start ASC -- ordenação ascendente por início da semana
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[17]:</div>
+    <div class="prompt output_prompt">Out[16]:</div>
 
 
 
@@ -14517,7 +14519,7 @@ ORDER BY week_start ASC -- ordenação ascendente por início da semana
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração e tratamento dos dados para um dataframe</span>
@@ -14584,7 +14586,7 @@ ORDER BY week_start ASC -- ordenação ascendente por início da semana
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Durante o período dos testes observamos uma <strong>dimunuição na taxa de abandono da nova <em>landing page</em> em 3.9%</strong>.</p>
+<p>Durante o período dos testes observamos uma <strong>diminuição na taxa de abandono da nova <em>landing page</em> em 3.9%</strong>.</p>
 
 </div>
 </div>
@@ -14599,7 +14601,7 @@ ORDER BY week_start ASC -- ordenação ascendente por início da semana
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As análises de funil de conversão reunem dados e métricas sobre cada uma das etapas que os clientes passam em sua jornada até a compra.</p>
+<p>As análises de funil de conversão reúnem dados e métricas sobre cada uma das etapas que os clientes passam em sua jornada até a compra.</p>
 
 </div>
 </div>
@@ -14614,7 +14616,7 @@ ORDER BY week_start ASC -- ordenação ascendente por início da semana
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -14676,7 +14678,7 @@ LIMIT 10
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[19]:</div>
+    <div class="prompt output_prompt">Out[18]:</div>
 
 
 
@@ -14822,7 +14824,7 @@ LIMIT 10
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -14859,7 +14861,7 @@ FROM count_clicked; -- escolha da tabelá temporária count_clicked
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[20]:</div>
+    <div class="prompt output_prompt">Out[19]:</div>
 
 
 
@@ -14898,7 +14900,7 @@ FROM count_clicked; -- escolha da tabelá temporária count_clicked
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#data setup</span>
@@ -14972,9 +14974,9 @@ require(['plotly'], function(Plotly) {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div>                            <div id="5048829e-b4ae-4430-a3f1-7b5a64ee4179" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("5048829e-b4ae-4430-a3f1-7b5a64ee4179")) {                    Plotly.newPlot(                        "5048829e-b4ae-4430-a3f1-7b5a64ee4179",                        [{"hovertemplate":"Taxa de convers\u00e3o: %{x}%<br>P\u00e1gina: %{y}<extra></extra>","legendgroup":"","marker":{"color":"#0173B2"},"name":"","orientation":"h","showlegend":false,"x":[47.07,34.87,15.2,10.13,8.04,3.52],"xaxis":"x","y":["P\u00e1gina inicial","Cat\u00e1logo de produtos","The Original Mr. Fuzzy","Carrinho de compras","Frete","Pagamento"],"yaxis":"y","type":"funnel","hoverlabel":{"font":{"color":"black","size":14},"bgcolor":"white"},"textfont":{"family":"sans-serif","size":14},"texttemplate":"%{value}%"}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"x"},"tickfont":{"family":"sans-serif","size":20,"color":"dimgrey"},"showline":true,"showgrid":false,"showticklabels":true,"linecolor":"dimgrey","ticks":"outside"},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":""},"tickfont":{"family":"sans-serif","size":20,"color":"dimgrey"},"showgrid":false,"zeroline":false,"showline":false,"linecolor":"dimgrey","showticklabels":true},"legend":{"tracegroupgap":0,"font":{"family":"sans-serif","size":16,"color":"dimgrey"},"title":{"text":""}},"title":{"text":"Funil de convers\u00e3o","font":{"size":26},"pad":{"l":-40}},"font":{"family":"sans-serif","color":"dimgrey"},"plot_bgcolor":"white"},                        {"responsive": true}                    ).then(function(){
+<div>                            <div id="841fa725-2ac4-44d5-8416-44923225387c" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("841fa725-2ac4-44d5-8416-44923225387c")) {                    Plotly.newPlot(                        "841fa725-2ac4-44d5-8416-44923225387c",                        [{"hovertemplate":"Taxa de convers\u00e3o: %{x}%<br>P\u00e1gina: %{y}<extra></extra>","legendgroup":"","marker":{"color":"#0173B2"},"name":"","orientation":"h","showlegend":false,"x":[47.07,34.87,15.2,10.13,8.04,3.52],"xaxis":"x","y":["P\u00e1gina inicial","Cat\u00e1logo de produtos","The Original Mr. Fuzzy","Carrinho de compras","Frete","Pagamento"],"yaxis":"y","type":"funnel","hoverlabel":{"font":{"color":"black","size":14},"bgcolor":"white"},"textfont":{"family":"sans-serif","size":14},"texttemplate":"%{value}%"}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"x"},"tickfont":{"family":"sans-serif","size":20,"color":"dimgrey"},"showline":true,"showgrid":false,"showticklabels":true,"linecolor":"dimgrey","ticks":"outside"},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":""},"tickfont":{"family":"sans-serif","size":20,"color":"dimgrey"},"showgrid":false,"zeroline":false,"showline":false,"linecolor":"dimgrey","showticklabels":true},"legend":{"tracegroupgap":0,"font":{"family":"sans-serif","size":16,"color":"dimgrey"},"title":{"text":""}},"title":{"text":"Funil de convers\u00e3o","font":{"size":26},"pad":{"l":-40}},"font":{"family":"sans-serif","color":"dimgrey"},"plot_bgcolor":"white"},                        {"responsive": true}                    ).then(function(){
 
-var gd = document.getElementById('5048829e-b4ae-4430-a3f1-7b5a64ee4179');
+var gd = document.getElementById('841fa725-2ac4-44d5-8416-44923225387c');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
@@ -15030,7 +15032,7 @@ if (outputEl) {{
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -15080,7 +15082,7 @@ GROUP BY wpv.pageview_url -- agrupamento por url da página
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[22]:</div>
+    <div class="prompt output_prompt">Out[21]:</div>
 
 
 
@@ -15157,7 +15159,7 @@ GROUP BY wpv.pageview_url -- agrupamento por url da página
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -15180,13 +15182,13 @@ GROUP BY
     
 SELECT 
     bp.hour, -- exibição da hora do dia
-    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 0 THEN bp.sessions ELSE NULL END),1) AS &#39;Monday&#39;, -- funções para arrendondamento da média de sessões da Segunda-Feira
-    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 1 THEN bp.sessions ELSE NULL END),1) AS &#39;Tuesday&#39;, -- funções para arrendondamento da média de sessões da Segunda-Feira
-    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 2 THEN bp.sessions ELSE NULL END),1) AS &#39;Wednesday&#39;, -- funções para arrendondamento da média de sessões da Quarta-Feira
-    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 3 THEN bp.sessions ELSE NULL END),1) AS &#39;Thursday&#39;, -- funções para arrendondamento da média de sessões da Quinta-Feira
-    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 4 THEN bp.sessions ELSE NULL END),1) AS &#39;Friday&#39;, -- funções para arrendondamento da média de sessões da Sexta-Feira
-    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 5 THEN bp.sessions ELSE NULL END),1) AS &#39;Saturday&#39;, -- funções para arrendondamento da média de sessões da Sábado
-    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 6 THEN bp.sessions ELSE NULL END),1) AS &#39;Sunday&#39; -- funções para arrendondamento da média de sessões do Domingo
+    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 0 THEN bp.sessions ELSE NULL END),1) AS &#39;Monday&#39;, -- funções para arredondamento da média de sessões da Segunda-Feira
+    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 1 THEN bp.sessions ELSE NULL END),1) AS &#39;Tuesday&#39;, -- funções para arredondamento da média de sessões da Segunda-Feira
+    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 2 THEN bp.sessions ELSE NULL END),1) AS &#39;Wednesday&#39;, -- funções para arredondamento da média de sessões da Quarta-Feira
+    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 3 THEN bp.sessions ELSE NULL END),1) AS &#39;Thursday&#39;, -- funções para arredondamento da média de sessões da Quinta-Feira
+    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 4 THEN bp.sessions ELSE NULL END),1) AS &#39;Friday&#39;, -- funções para arredondamento da média de sessões da Sexta-Feira
+    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 5 THEN bp.sessions ELSE NULL END),1) AS &#39;Saturday&#39;, -- funções para arredondamento da média de sessões da Sábado
+    ROUND(AVG(CASE WHEN WEEKDAY(bp.created_at) = 6 THEN bp.sessions ELSE NULL END),1) AS &#39;Sunday&#39; -- funções para arredondamento da média de sessões do Domingo
     
 FROM b_pattern AS bp -- escolha da tabela produzida pela CTE b_pattern
 
@@ -15217,7 +15219,7 @@ ORDER BY bp.hour ASC -- ordenação ascendente por hora do dia
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[22]:</div>
 
 
 
@@ -15488,7 +15490,7 @@ ORDER BY bp.hour ASC -- ordenação ascendente por hora do dia
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração e tratamento dos dados para um dataframe</span>
@@ -15558,7 +15560,7 @@ ORDER BY bp.hour ASC -- ordenação ascendente por hora do dia
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração e tratamento dos dados para um dataframe</span>
@@ -15598,13 +15600,13 @@ ORDER BY bp.hour ASC -- ordenação ascendente por hora do dia
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[25]:</div>
+    <div class="prompt output_prompt">Out[24]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>&lt;seaborn.axisgrid.FacetGrid at 0x1fa76a69088&gt;</pre>
+<pre>&lt;seaborn.axisgrid.FacetGrid at 0x2128b69f988&gt;</pre>
 </div>
 
 </div>
@@ -15630,7 +15632,7 @@ ORDER BY bp.hour ASC -- ordenação ascendente por hora do dia
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Nos dias úteis o número de acessos são maiores e intensificam no período da 6h às 16h</strong>, havendo declinio após esse horário.
+<p><strong>Nos dias úteis o número de acessos são maiores e intensificam no período da 6h às 16h</strong>, havendo declínio após esse horário.
 Os <strong>acessos têm auge nas quartas-feiras</strong> com pico registrado às 15h de 25 acessos.</p>
 
 </div>
@@ -15657,7 +15659,7 @@ Os <strong>acessos têm auge nas quartas-feiras</strong> com pico registrado às
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -15698,7 +15700,7 @@ GROUP BY YEAR(ws.created_at), MONTH(ws.created_at) -- agrupamento por meses do a
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[26]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -15785,7 +15787,7 @@ GROUP BY YEAR(ws.created_at), MONTH(ws.created_at) -- agrupamento por meses do a
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração e tratamento dos dados para um dataframe</span>
@@ -15845,7 +15847,7 @@ GROUP BY YEAR(ws.created_at), MONTH(ws.created_at) -- agrupamento por meses do a
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Gráfico focado no eixo de vendas.</span>
@@ -15919,7 +15921,7 @@ GROUP BY YEAR(ws.created_at), MONTH(ws.created_at) -- agrupamento por meses do a
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -15959,7 +15961,7 @@ GROUP BY
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[28]:</div>
 
 
 
@@ -16057,7 +16059,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração e tratamento dos dados para um dataframe</span>
@@ -16133,7 +16135,7 @@ GROUP BY
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Na data 25/09/2013 foi implementado a funcionalidade de venda cruzada no site para o aumento das vendas. Isso siginifica que agora o cliente recebe ofertas complementares durante o processo de compra.</p>
+<p>Na data 25/09/2013 foi implementado a funcionalidade de venda cruzada no site para o aumento das vendas. Isso significa que agora o cliente recebe ofertas complementares durante o processo de compra.</p>
 <p>A seguir, analisaremos o impacto financeiro dessa mudança.</p>
 
 </div>
@@ -16141,7 +16143,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -16149,14 +16151,14 @@ SELECT
     CASE
         WHEN DATE(wpv.created_at) BETWEEN &#39;2013-08-25&#39; AND &#39;2013-09-24&#39; THEN &#39;A. Pre_Cross_Sell&#39;
         WHEN DATE(wpv.created_at) BETWEEN &#39;2013-09-25&#39; AND &#39;2013-10-24&#39; THEN &#39;B. Post_Cross_Sell&#39;
-    END AS time_period, -- divisão e exibição do período anterior e postorior a mundança
+    END AS time_period, -- divisão e exibição do período anterior e posterior a mudança
     COUNT(DISTINCT CASE WHEN wpv.pageview_url = &#39;/cart&#39; THEN wpv.website_session_id ELSE NULL END) AS cart_sessions, -- função de agregação para contagem de carrinhos de compras 
     COUNT(DISTINCT CASE WHEN wpv.pageview_url = &#39;/shipping&#39; THEN wpv.website_session_id ELSE NULL END) / COUNT(DISTINCT CASE WHEN wpv.pageview_url = &#39;/cart&#39; THEN wpv.website_session_id ELSE NULL END) AS cart_ctr, -- cálculo da taxa de prosseguimento do carrinho de compras
     COUNT(DISTINCT oi.order_item_id) / COUNT(DISTINCT o.order_id) AS products_per_order, -- cálculo da taxa de itens por compra
     SUM(CASE WHEN wpv.pageview_url = &#39;/cart&#39; AND oi.is_primary_item = 1 THEN o.price_usd ELSE NULL END) / COUNT(DISTINCT o.order_id) AS avg_order_value, -- cálculo do preço médio dos produtos por compra
     SUM(CASE WHEN wpv.pageview_url = &#39;/cart&#39; AND oi.is_primary_item = 1 THEN o.price_usd ELSE NULL END) / COUNT(DISTINCT CASE WHEN wpv.pageview_url = &#39;/cart&#39; THEN wpv.website_session_id ELSE NULL END) AS rev_per_cart_session -- cálculo do preço médio dos produtos por carrinho
     
-FROM website_pageviews AS wpv -- escolha da tabela de visualizaçãoes de páginas (alias wpv)
+FROM website_pageviews AS wpv -- escolha da tabela de visualizações de páginas (alias wpv)
        
 LEFT JOIN orders AS o -- junção da tabela de compras (alias o) usando a coluna website_session_id
 USING(website_session_id)
@@ -16168,7 +16170,7 @@ USING(order_id)
 WHERE
     DATE(wpv.created_at) BETWEEN &#39;2013-08-25&#39; AND &#39;2013-10-24&#39; -- filtro de dados para data da análise período: 25/08/2013 até 24/10/2013
     
-GROUP BY time_period -- agrupamento por período de tempo (pré ou pós mundança)
+GROUP BY time_period -- agrupamento por período de tempo (pré ou pós mudança)
 </pre></div>
 
     </div>
@@ -16193,7 +16195,7 @@ GROUP BY time_period -- agrupamento por período de tempo (pré ou pós mundanç
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[30]:</div>
 
 
 
@@ -16254,7 +16256,7 @@ GROUP BY time_period -- agrupamento por período de tempo (pré ou pós mundanç
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Na data 12/12/2013 um novo produto foi inserido no portifólio. A seguir, analisaremos o impacto financeiro utlizando as seguintes métricas:</p>
+<p>Na data 12/12/2013 um novo produto foi inserido no portifólio. A seguir, analisaremos o impacto financeiro utilizando as seguintes métricas:</p>
 <ul>
 <li><code>conv_rate</code> - a taxa de conversão;</li>
 <li><code>AVG_order_valeu</code> - média de preço por pedido;</li>
@@ -16267,7 +16269,7 @@ GROUP BY time_period -- agrupamento por período de tempo (pré ou pós mundanç
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -16310,7 +16312,7 @@ GROUP BY time_period -- agrupamento por período de tempo
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[32]:</div>
+    <div class="prompt output_prompt">Out[31]:</div>
 
 
 
@@ -16353,7 +16355,7 @@ GROUP BY time_period -- agrupamento por período de tempo
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Foi um sucesso! Os resultados mostram um aumento de todas as métricas análisadas, ou seja, <strong>estamos vendendo mais</strong>.</p>
+<p>Foi um sucesso! Os resultados mostram um aumento de todas as métricas analisadas, ou seja, <strong>estamos vendendo mais</strong>.</p>
 
 </div>
 </div>
@@ -16376,7 +16378,7 @@ GROUP BY time_period -- agrupamento por período de tempo
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
@@ -16424,7 +16426,7 @@ YEAR(created_at), MONTH(created_at) -- agrupamento por meses do ano
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[33]:</div>
+    <div class="prompt output_prompt">Out[32]:</div>
 
 
 
@@ -16889,7 +16891,7 @@ YEAR(created_at), MONTH(created_at) -- agrupamento por meses do ano
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração e tratamento dos dados para um dataframe</span>
@@ -16975,13 +16977,13 @@ YEAR(created_at), MONTH(created_at) -- agrupamento por meses do ano
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%</span><span class="k">sql</span>
 SELECT 
-    IF(GROUPING(YEAR(o.created_at)), &#39;All Years&#39;, YEAR(o.created_at)) AS year, -- lógica para exibição do ano e texto customizado para super agregados
-    IF(GROUPING(MONTH(o.created_at)), &#39;All Months&#39;, MONTH(o.created_at)) AS month, -- lógica para exibição do mês e texto customizado para super agregados
+    IF(GROUPING(YEAR(o.created_at)), &#39;All Years&#39;, YEAR(o.created_at)) AS year, -- lógica para exibição do ano e texto personalizado para super agregados
+    IF(GROUPING(MONTH(o.created_at)), &#39;All Months&#39;, MONTH(o.created_at)) AS month, -- lógica para exibição do mês e texto personalizado para super agregados
     COUNT(o.order_id) AS num_sales, -- função de agregação para contagem das compras
     SUM(o.price_usd) AS total_rev, -- função de agregação para soma da receita de cada venda
     SUM(o.price_usd - o.cogs_usd) AS total_profit -- função de agregação para soma do lucro de cada venda
@@ -17016,7 +17018,7 @@ GROUP BY
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[35]:</div>
+    <div class="prompt output_prompt">Out[34]:</div>
 
 
 
@@ -17338,7 +17340,7 @@ GROUP BY
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#extração e tratamento dos dados para um dataframe</span>
@@ -17410,9 +17412,9 @@ require(['plotly'], function(Plotly) {
 
 
 <div class="output_html rendered_html output_subarea ">
-<div>                            <div id="6452448d-2ab8-4639-841f-176b919cdce2" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("6452448d-2ab8-4639-841f-176b919cdce2")) {                    Plotly.newPlot(                        "6452448d-2ab8-4639-841f-176b919cdce2",                        [{"hovertemplate":"Medida: Receita<br>M\u00eas-Ano: %{x}<br>D\u00f3lares: %{y}<extra></extra>","legendgroup":"Receita","line":{"color":"#CC78BC","dash":"solid","width":3},"marker":{"symbol":"circle"},"mode":"lines","name":"Receita","orientation":"v","showlegend":true,"x":["Mar-12","Abr-12","Mai-12","Jun-12","Jul-12","Ago-12","Set-12","Out-12","Nov-12","Dez-12","Jan-13","Fev-13","Mar-13","Abr-13","Mai-13","Jun-13","Jul-13","Ago-13","Set-13","Out-13","Nov-13","Dez-13","Jan-14","Fev-14","Mar-14","Abr-14","Mai-14","Jun-14","Jul-14","Ago-14","Set-14","Out-14","Nov-14","Dez-14","Jan-15","Fev-15"],"xaxis":"x","y":[2999.0,4949.0,5399.0,6999.0,8448.0,11398.0,14347.0,18546.0,30894.0,25295.0,19966.0,26515.0,19896.0,28584.0,29364.0,30544.0,31144.0,31374.0,32724.0,38243.0,46631.0,58263.0,56569.0,66013.0,68190.0,78725.0,88935.0,80051.0,83289.0,84716.0,92232.0,103906.0,128163.0,144823.0,132212.0,127041.0],"yaxis":"y","type":"scatter","hoverlabel":{"font":{"color":"black","size":14},"bgcolor":"white"}},{"hovertemplate":"Medida: Receita<br>M\u00eas-Ano: %{x}<br>D\u00f3lares: %{y}<extra></extra>","legendgroup":"Lucro","line":{"color":"#029E73","dash":"solid","width":3},"marker":{"symbol":"circle"},"mode":"lines","name":"Lucro","orientation":"v","showlegend":true,"x":["Mar-12","Abr-12","Mai-12","Jun-12","Jul-12","Ago-12","Set-12","Out-12","Nov-12","Dez-12","Jan-13","Fev-13","Mar-13","Abr-13","Mai-13","Jun-13","Jul-13","Ago-13","Set-13","Out-13","Nov-13","Dez-13","Jan-14","Fev-14","Mar-14","Abr-14","Mai-14","Jun-14","Jul-14","Ago-14","Set-14","Out-14","Nov-14","Dez-14","Jan-15","Fev-15"],"xaxis":"x","y":[1830.0,3020.0,3294.0,4270.0,5155.0,6954.0,8754.0,11316.0,18849.0,15433.0,12224.0,16323.0,12198.0,17525.0,17990.0,18717.0,19087.0,19230.0,20054.0,23454.0,28607.0,36190.0,35367.0,41762.0,43069.0,49714.0,56168.0,50601.0,52567.0,53579.0,58310.0,65747.0,80985.0,91857.0,83911.0,80623.0],"yaxis":"y","type":"scatter","hoverlabel":{"font":{"color":"black","size":14},"bgcolor":"white"}}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Per\u00edodo","font":{"size":20}},"tickfont":{"family":"sans-serif","size":12,"color":"dimgrey"},"showline":true,"showgrid":true,"showticklabels":true,"linecolor":"dimgrey","ticks":"outside","rangeslider":{"visible":true,"bgcolor":"whitesmoke"},"tickangle":80},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"D\u00f3lares","font":{"size":20}},"tickfont":{"family":"sans-serif","size":12,"color":"dimgrey"},"showgrid":true,"zeroline":false,"showline":false,"linecolor":"dimgrey","showticklabels":true},"legend":{"title":{"text":""},"tracegroupgap":0,"font":{"family":"sans-serif","size":16,"color":"dimgrey"}},"title":{"text":"Evolu\u00e7\u00e3o financeira","font":{"size":26},"pad":{"l":-40}},"font":{"family":"sans-serif","color":"dimgrey"},"plot_bgcolor":"whitesmoke"},                        {"responsive": true}                    ).then(function(){
+<div>                            <div id="5d4d3772-48d2-4f95-a2e2-eb6209f900d8" class="plotly-graph-div" style="height:525px; width:100%;"></div>            <script type="text/javascript">                require(["plotly"], function(Plotly) {                    window.PLOTLYENV=window.PLOTLYENV || {};                                    if (document.getElementById("5d4d3772-48d2-4f95-a2e2-eb6209f900d8")) {                    Plotly.newPlot(                        "5d4d3772-48d2-4f95-a2e2-eb6209f900d8",                        [{"hovertemplate":"Medida: Receita<br>M\u00eas-Ano: %{x}<br>D\u00f3lares: %{y}<extra></extra>","legendgroup":"Receita","line":{"color":"#CC78BC","dash":"solid","width":3},"marker":{"symbol":"circle"},"mode":"lines","name":"Receita","orientation":"v","showlegend":true,"x":["Mar-12","Abr-12","Mai-12","Jun-12","Jul-12","Ago-12","Set-12","Out-12","Nov-12","Dez-12","Jan-13","Fev-13","Mar-13","Abr-13","Mai-13","Jun-13","Jul-13","Ago-13","Set-13","Out-13","Nov-13","Dez-13","Jan-14","Fev-14","Mar-14","Abr-14","Mai-14","Jun-14","Jul-14","Ago-14","Set-14","Out-14","Nov-14","Dez-14","Jan-15","Fev-15"],"xaxis":"x","y":[2999.0,4949.0,5399.0,6999.0,8448.0,11398.0,14347.0,18546.0,30894.0,25295.0,19966.0,26515.0,19896.0,28584.0,29364.0,30544.0,31144.0,31374.0,32724.0,38243.0,46631.0,58263.0,56569.0,66013.0,68190.0,78725.0,88935.0,80051.0,83289.0,84716.0,92232.0,103906.0,128163.0,144823.0,132212.0,127041.0],"yaxis":"y","type":"scatter","hoverlabel":{"font":{"color":"black","size":14},"bgcolor":"white"}},{"hovertemplate":"Medida: Receita<br>M\u00eas-Ano: %{x}<br>D\u00f3lares: %{y}<extra></extra>","legendgroup":"Lucro","line":{"color":"#029E73","dash":"solid","width":3},"marker":{"symbol":"circle"},"mode":"lines","name":"Lucro","orientation":"v","showlegend":true,"x":["Mar-12","Abr-12","Mai-12","Jun-12","Jul-12","Ago-12","Set-12","Out-12","Nov-12","Dez-12","Jan-13","Fev-13","Mar-13","Abr-13","Mai-13","Jun-13","Jul-13","Ago-13","Set-13","Out-13","Nov-13","Dez-13","Jan-14","Fev-14","Mar-14","Abr-14","Mai-14","Jun-14","Jul-14","Ago-14","Set-14","Out-14","Nov-14","Dez-14","Jan-15","Fev-15"],"xaxis":"x","y":[1830.0,3020.0,3294.0,4270.0,5155.0,6954.0,8754.0,11316.0,18849.0,15433.0,12224.0,16323.0,12198.0,17525.0,17990.0,18717.0,19087.0,19230.0,20054.0,23454.0,28607.0,36190.0,35367.0,41762.0,43069.0,49714.0,56168.0,50601.0,52567.0,53579.0,58310.0,65747.0,80985.0,91857.0,83911.0,80623.0],"yaxis":"y","type":"scatter","hoverlabel":{"font":{"color":"black","size":14},"bgcolor":"white"}}],                        {"template":{"data":{"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"choropleth":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"choropleth"}],"contour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"contour"}],"contourcarpet":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"contourcarpet"}],"heatmap":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmap"}],"heatmapgl":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"heatmapgl"}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"histogram2d":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2d"}],"histogram2dcontour":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"histogram2dcontour"}],"mesh3d":[{"colorbar":{"outlinewidth":0,"ticks":""},"type":"mesh3d"}],"parcoords":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"parcoords"}],"pie":[{"automargin":true,"type":"pie"}],"scatter":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter"}],"scatter3d":[{"line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatter3d"}],"scattercarpet":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattercarpet"}],"scattergeo":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergeo"}],"scattergl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattergl"}],"scattermapbox":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scattermapbox"}],"scatterpolar":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolar"}],"scatterpolargl":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterpolargl"}],"scatterternary":[{"marker":{"colorbar":{"outlinewidth":0,"ticks":""}},"type":"scatterternary"}],"surface":[{"colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"type":"surface"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}]},"layout":{"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"autotypenumbers":"strict","coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]],"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]},"colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"geo":{"bgcolor":"white","lakecolor":"white","landcolor":"#E5ECF6","showlakes":true,"showland":true,"subunitcolor":"white"},"hoverlabel":{"align":"left"},"hovermode":"closest","mapbox":{"style":"light"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","gridwidth":2,"linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white"}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"ternary":{"aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"bgcolor":"#E5ECF6","caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"title":{"x":0.05},"xaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2},"yaxis":{"automargin":true,"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","zerolinewidth":2}}},"xaxis":{"anchor":"y","domain":[0.0,1.0],"title":{"text":"Per\u00edodo","font":{"size":20}},"tickfont":{"family":"sans-serif","size":12,"color":"dimgrey"},"showline":true,"showgrid":true,"showticklabels":true,"linecolor":"dimgrey","ticks":"outside","rangeslider":{"visible":true,"bgcolor":"whitesmoke"},"tickangle":80},"yaxis":{"anchor":"x","domain":[0.0,1.0],"title":{"text":"D\u00f3lares","font":{"size":20}},"tickfont":{"family":"sans-serif","size":12,"color":"dimgrey"},"showgrid":true,"zeroline":false,"showline":false,"linecolor":"dimgrey","showticklabels":true},"legend":{"title":{"text":""},"tracegroupgap":0,"font":{"family":"sans-serif","size":16,"color":"dimgrey"}},"title":{"text":"Evolu\u00e7\u00e3o financeira","font":{"size":26},"pad":{"l":-40}},"font":{"family":"sans-serif","color":"dimgrey"},"plot_bgcolor":"whitesmoke"},                        {"responsive": true}                    ).then(function(){
 
-var gd = document.getElementById('6452448d-2ab8-4639-841f-176b919cdce2');
+var gd = document.getElementById('5d4d3772-48d2-4f95-a2e2-eb6209f900d8');
 var x = new MutationObserver(function (mutations, observer) {{
         var display = window.getComputedStyle(gd).display;
         if (!display || display === 'none') {{
@@ -17446,7 +17448,7 @@ if (outputEl) {{
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Atráves da exploração dos dados, utilizando o gráfico interativo acima, nota-se que <strong>as finanças declinam no meses próximos à virada de ano</strong>. O últimos registros apresentam resultados alarmantes, <strong>o declínio se intensificou no início do ano corrente (2015)</strong>.</p>
+<p>Através da exploração dos dados, utilizando o gráfico interativo acima, nota-se que <strong>as finanças declinam no meses próximos à virada de ano</strong>. O últimos registros apresentam resultados alarmantes, <strong>o declínio se intensificou no início do ano corrente (2015)</strong>.</p>
 <p>Será necessário aprofundar as investigações para que se estabeleça um plano de ação.</p>
 
 </div>
@@ -17454,6 +17456,10 @@ if (outputEl) {{
 </div>
     </div>
   </div>
-<script>document.querySelectorAll("pre").forEach(i => {hljs.highlightElement(i)})</script>
+  <script>document.querySelectorAll("pre").forEach(i => {hljs.highlightElement(i)})</script>
 </body>
+
+ 
+
+
 </html>
